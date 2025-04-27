@@ -1,0 +1,78 @@
+/* styles.css */
+.top-navbar {
+            background-color: #000;
+            height: 60px;
+            padding: 10px 20px;
+            width: 250px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1000;
+            display: flex;
+            align-items: center;
+            border-bottom: 1px solid #333;
+        }
+
+        body {
+            background-color: #f8f9fa;
+        }
+
+        .sidebar {
+            background-color: #212529;
+            min-height: 100vh;
+            width: 250px;
+            position: fixed;
+            left: 0;
+            top: 0;
+            padding: 20px 0;
+            box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+        }
+
+        .menu {
+            flex: 1;
+            background-color: #212529;
+            padding: 20px;
+            max-width: 250px; /* Фиксированная ширина меню */
+        }
+        .menu-title {
+            color: #adb5bd;
+            padding: 15px 25px;
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .nav-link {
+            color: #dee2e6 !important;
+            padding: 12px 25px;
+            margin: 2px 15px;
+            border-radius: 5px;
+            transition: all 0.3s ease;
+        }
+
+        .nav-link:hover {
+            background-color: #343a40;
+            color: #fff !important;
+        }
+
+        .nav-link.active {
+            background-color: #0d6efd;
+            color: #fff !important;
+        }
+
+        .main-content {
+            margin-left: 250px;
+            padding: 30px;
+        }
+
+        .user-menu {
+            margin-top: auto; /* Прижимаем к низу */
+            border-top: 1px solid #34495e;
+            padding: 15px;
+        }
+
+        .placeholder-gray {
+            background: #f0f0f0;
+            border-radius: 0.375rem 0.375rem 0 0;
+        }
